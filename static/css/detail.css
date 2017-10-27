@@ -1,0 +1,9 @@
+.question-info{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.answer-list li{
+    list-style: none;
+    border-bottom: 1px solid #efefef;
+}
