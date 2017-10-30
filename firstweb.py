@@ -1,6 +1,6 @@
 #encoding: utf-8
 
-from flask import Flask,render_template,request,redirect,url_for,session,g
+from flask import Flask,render_template,request,redirect,url_for,session,g,jsonify
 import config
 from decorators import login_required
 #获取数据库的结构
@@ -62,9 +62,9 @@ def login():
             session['user_id'] = user.id
             #如果你想在31天内不需要登录，
             session.permanent = True
-            return redirect(url_for('index'))
+            return jsonify({'code':'200','message':''})
         else:
-            return u'手机号码或者密码错误'
+            return jsonify({'code':'401','message':'用户名或密码错误'})
 
 @app.route('/logout/')
 def logout():
