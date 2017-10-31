@@ -1,0 +1,47 @@
+2017-10-31 17:52:16,573 CRIT Supervisor running as root (no user in config file)
+2017-10-31 17:53:34,265 CRIT Supervisor running as root (no user in config file)
+2017-10-31 17:54:36,736 CRIT Supervisor running as root (no user in config file)
+2017-10-31 17:56:07,055 CRIT Supervisor running as root (no user in config file)
+2017-10-31 17:58:43,279 CRIT Supervisor running as root (no user in config file)
+2017-10-31 17:58:43,281 INFO daemonizing the supervisord process
+2017-10-31 17:58:43,281 INFO supervisord started with pid 18509
+2017-10-31 17:58:44,283 INFO spawned: 'supervisor' with pid 18510
+2017-10-31 17:58:44,287 INFO success: supervisor entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-10-31 18:01:02,609 CRIT Supervisor running as root (no user in config file)
+2017-10-31 18:01:02,610 INFO daemonizing the supervisord process
+2017-10-31 18:01:02,611 INFO supervisord started with pid 18532
+2017-10-31 18:01:03,613 INFO spawned: 'supervisor' with pid 18533
+2017-10-31 18:01:03,617 INFO success: supervisor entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-10-31 18:19:52,838 CRIT Supervisor running as root (no user in config file)
+2017-10-31 18:20:40,714 CRIT Supervisor running as root (no user in config file)
+2017-10-31 18:20:40,720 INFO RPC interface 'supervisor' initialized
+2017-10-31 18:20:40,721 INFO daemonizing the supervisord process
+2017-10-31 18:20:40,721 INFO supervisord started with pid 18590
+2017-10-31 18:20:41,723 INFO spawned: 'supervisor' with pid 18591
+2017-10-31 18:20:41,727 INFO success: supervisor entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-10-31 18:22:49,398 INFO waiting for supervisor to die
+2017-10-31 18:22:49,398 WARN killing 'supervisor' (18591) with SIGKILL
+2017-10-31 18:22:49,399 INFO stopped: supervisor (terminated by SIGKILL)
+2017-10-31 18:22:49,434 CRIT Supervisor running as root (no user in config file)
+2017-10-31 18:22:49,434 INFO RPC interface 'supervisor' initialized
+2017-10-31 18:22:49,435 INFO supervisord started with pid 18590
+2017-10-31 18:22:50,436 INFO spawned: 'wudizu' with pid 18611
+2017-10-31 18:22:50,441 INFO success: wudizu entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-10-31 18:43:30,930 WARN received SIGTERM indicating exit request
+2017-10-31 18:43:30,930 INFO waiting for supervisor to die
+2017-10-31 18:43:30,930 WARN killing 'supervisor' (18510) with SIGKILL
+2017-10-31 18:43:30,934 INFO stopped: supervisor (terminated by SIGKILL)
+2017-10-31 18:43:30,943 WARN received SIGTERM indicating exit request
+2017-10-31 18:43:30,943 INFO waiting for wudizu to die
+2017-10-31 18:43:30,943 WARN killing 'wudizu' (18611) with SIGKILL
+2017-10-31 18:43:30,944 WARN received SIGTERM indicating exit request
+2017-10-31 18:43:30,944 INFO waiting for supervisor to die
+2017-10-31 18:43:30,944 WARN killing 'supervisor' (18533) with SIGKILL
+2017-10-31 18:43:30,945 INFO stopped: supervisor (terminated by SIGKILL)
+2017-10-31 18:43:30,946 INFO stopped: wudizu (terminated by SIGKILL)
+2017-10-31 19:16:28,505 CRIT Supervisor running as root (no user in config file)
+2017-10-31 19:16:28,513 INFO RPC interface 'supervisor' initialized
+2017-10-31 19:16:28,514 INFO daemonizing the supervisord process
+2017-10-31 19:16:28,514 INFO supervisord started with pid 1372
+2017-10-31 19:16:29,516 INFO spawned: 'wudizu' with pid 1373
+2017-10-31 19:16:29,527 INFO success: wudizu entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)

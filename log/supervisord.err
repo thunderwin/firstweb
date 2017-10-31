@@ -1,0 +1,2006 @@
+[uWSGI] getting INI configuration from wudizu_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Oct 31 17:58:44 2017] ***
+compiled with version: 4.8.4 on 31 October 2017 13:59:27
+os: Linux-4.4.0-93-generic #116~14.04.1-Ubuntu SMP Mon Aug 14 16:07:05 UTC 2017
+nodename: iZm5e0xw5mwwcpsnzwzzspZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/wudizu
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/wudizu
+your processes number limit is 3869
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /srv/wudizu/wudizu.sock fd 3
+Python version: 2.7.6 (default, Oct 26 2016, 20:33:43)  [GCC 4.8.4]
+Set PythonHome to /root/.virtualenvs/flask-py2
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xf1eaf0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xf1eaf0 pid: 18510 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18510)
+spawned uWSGI worker 1 (pid: 18513, cores: 1)
+spawned uWSGI worker 2 (pid: 18514, cores: 1)
+spawned uWSGI worker 3 (pid: 18515, cores: 1)
+spawned uWSGI worker 4 (pid: 18516, cores: 1)
+spawned uWSGI worker 5 (pid: 18517, cores: 1)
+spawned uWSGI worker 6 (pid: 18518, cores: 1)
+spawned uWSGI worker 7 (pid: 18519, cores: 1)
+spawned uWSGI worker 8 (pid: 18520, cores: 1)
+spawned uWSGI worker 9 (pid: 18521, cores: 1)
+spawned uWSGI worker 10 (pid: 18522, cores: 1)
+[pid: 18517|app: 0|req: 1/1] 180.117.243.174 () {46 vars in 929 bytes} [Tue Oct 31 17:59:12 2017] GET /detail/2 => generated 3932 bytes in 49 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 18513|app: 0|req: 1/2] 180.117.243.174 () {44 vars in 894 bytes} [Tue Oct 31 17:59:17 2017] GET /login/ => generated 4302 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 18522|app: 0|req: 1/3] 180.117.243.174 () {50 vars in 994 bytes} [Tue Oct 31 17:59:23 2017] POST /login/ => generated 28 bytes in 430 msecs (HTTP/1.1 200) 3 headers in 227 bytes (2 switches on core 0)
+/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:624: SAWarning: Can't resolve label reference '-create_time'; converting to text() (this warning may be suppressed after 10 occurrences)
+  util.ellipses_string(element.element))
+[pid: 18513|app: 0|req: 2/4] 180.117.243.174 () {44 vars in 880 bytes} [Tue Oct 31 17:59:24 2017] GET / => generated 3639 bytes in 37 msecs (HTTP/1.1 200) 3 headers in 237 bytes (1 switches on core 0)
+[pid: 18522|app: 0|req: 2/5] 180.117.243.174 () {42 vars in 815 bytes} [Tue Oct 31 17:59:26 2017] GET /favicon.ico => generated 233 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 228 bytes (1 switches on core 0)
+[uWSGI] getting INI configuration from wudizu_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Oct 31 18:01:03 2017] ***
+compiled with version: 4.8.4 on 31 October 2017 13:59:27
+os: Linux-4.4.0-93-generic #116~14.04.1-Ubuntu SMP Mon Aug 14 16:07:05 UTC 2017
+nodename: iZm5e0xw5mwwcpsnzwzzspZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/wudizu
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/wudizu
+your processes number limit is 3869
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /srv/wudizu/wudizu.sock fd 3
+Python version: 2.7.6 (default, Oct 26 2016, 20:33:43)  [GCC 4.8.4]
+Set PythonHome to /root/.virtualenvs/flask-py2
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1fafaf0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1fafaf0 pid: 18533 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18533)
+spawned uWSGI worker 1 (pid: 18536, cores: 1)
+spawned uWSGI worker 2 (pid: 18537, cores: 1)
+spawned uWSGI worker 3 (pid: 18538, cores: 1)
+spawned uWSGI worker 4 (pid: 18539, cores: 1)
+spawned uWSGI worker 5 (pid: 18540, cores: 1)
+spawned uWSGI worker 6 (pid: 18541, cores: 1)
+spawned uWSGI worker 7 (pid: 18542, cores: 1)
+spawned uWSGI worker 8 (pid: 18543, cores: 1)
+spawned uWSGI worker 9 (pid: 18544, cores: 1)
+spawned uWSGI worker 10 (pid: 18545, cores: 1)
+[uWSGI] getting INI configuration from wudizu_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Oct 31 18:20:41 2017] ***
+compiled with version: 4.8.4 on 31 October 2017 13:59:27
+os: Linux-4.4.0-93-generic #116~14.04.1-Ubuntu SMP Mon Aug 14 16:07:05 UTC 2017
+nodename: iZm5e0xw5mwwcpsnzwzzspZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/wudizu
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/wudizu
+your processes number limit is 3869
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /srv/wudizu/wudizu.sock fd 3
+Python version: 2.7.6 (default, Oct 26 2016, 20:33:43)  [GCC 4.8.4]
+Set PythonHome to /root/.virtualenvs/flask-py2
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1b9fb40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1b9fb40 pid: 18591 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18591)
+spawned uWSGI worker 1 (pid: 18594, cores: 1)
+spawned uWSGI worker 2 (pid: 18595, cores: 1)
+spawned uWSGI worker 3 (pid: 18596, cores: 1)
+spawned uWSGI worker 4 (pid: 18597, cores: 1)
+spawned uWSGI worker 5 (pid: 18598, cores: 1)
+spawned uWSGI worker 6 (pid: 18599, cores: 1)
+spawned uWSGI worker 7 (pid: 18600, cores: 1)
+spawned uWSGI worker 8 (pid: 18601, cores: 1)
+spawned uWSGI worker 9 (pid: 18602, cores: 1)
+spawned uWSGI worker 10 (pid: 18603, cores: 1)
+/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:624: SAWarning: Can't resolve label reference '-create_time'; converting to text() (this warning may be suppressed after 10 occurrences)
+  util.ellipses_string(element.element))
+[pid: 18598|app: 0|req: 1/1] 180.117.243.174 () {46 vars in 911 bytes} [Tue Oct 31 18:20:51 2017] GET / => generated 3651 bytes in 46 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:624: SAWarning: Can't resolve label reference '-create_time'; converting to text() (this warning may be suppressed after 10 occurrences)
+  util.ellipses_string(element.element))
+[pid: 18603|app: 0|req: 1/2] 180.117.243.174 () {46 vars in 911 bytes} [Tue Oct 31 18:20:52 2017] GET / => generated 3651 bytes in 46 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 18594|app: 0|req: 1/3] 180.117.243.174 () {42 vars in 815 bytes} [Tue Oct 31 18:20:54 2017] GET /favicon.ico => generated 233 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 18603|app: 0|req: 2/4] 180.117.243.174 () {42 vars in 837 bytes} [Tue Oct 31 18:21:06 2017] GET / => generated 3651 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+...brutally killing workers...
+[uWSGI] getting INI configuration from wudizu_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Oct 31 18:22:50 2017] ***
+compiled with version: 4.8.4 on 31 October 2017 13:59:27
+os: Linux-4.4.0-93-generic #116~14.04.1-Ubuntu SMP Mon Aug 14 16:07:05 UTC 2017
+nodename: iZm5e0xw5mwwcpsnzwzzspZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/wudizu
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/wudizu
+your processes number limit is 3869
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /srv/wudizu/wudizu.sock fd 3
+Python version: 2.7.6 (default, Oct 26 2016, 20:33:43)  [GCC 4.8.4]
+Set PythonHome to /root/.virtualenvs/flask-py2
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1b12b40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1b12b40 pid: 18611 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18611)
+spawned uWSGI worker 1 (pid: 18614, cores: 1)
+spawned uWSGI worker 2 (pid: 18615, cores: 1)
+spawned uWSGI worker 3 (pid: 18616, cores: 1)
+spawned uWSGI worker 4 (pid: 18617, cores: 1)
+spawned uWSGI worker 5 (pid: 18618, cores: 1)
+spawned uWSGI worker 6 (pid: 18619, cores: 1)
+spawned uWSGI worker 7 (pid: 18620, cores: 1)
+spawned uWSGI worker 8 (pid: 18621, cores: 1)
+spawned uWSGI worker 9 (pid: 18622, cores: 1)
+spawned uWSGI worker 10 (pid: 18623, cores: 1)
+[pid: 18623|app: 0|req: 1/1] 180.117.243.174 () {42 vars in 845 bytes} [Tue Oct 31 18:23:23 2017] GET /9001 => generated 233 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 18614|app: 0|req: 1/2] 180.117.243.174 () {42 vars in 845 bytes} [Tue Oct 31 18:23:29 2017] GET /9001 => generated 233 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:624: SAWarning: Can't resolve label reference '-create_time'; converting to text() (this warning may be suppressed after 10 occurrences)
+  util.ellipses_string(element.element))
+[pid: 18623|app: 0|req: 2/3] 180.117.243.174 () {42 vars in 837 bytes} [Tue Oct 31 18:24:09 2017] GET / => generated 3651 bytes in 45 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 18614|app: 0|req: 2/4] 180.117.243.174 () {44 vars in 892 bytes} [Tue Oct 31 18:24:11 2017] GET /question/ => generated 221 bytes in 6 msecs (HTTP/1.1 302) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 18623|app: 0|req: 3/5] 180.117.243.174 () {44 vars in 886 bytes} [Tue Oct 31 18:24:11 2017] GET /login/ => generated 4302 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:624: SAWarning: Can't resolve label reference '-create_time'; converting to text() (this warning may be suppressed after 10 occurrences)
+  util.ellipses_string(element.element))
+[pid: 18622|app: 0|req: 1/6] 180.117.243.174 () {44 vars in 899 bytes} [Tue Oct 31 18:24:14 2017] GET /search/?q= => generated 3651 bytes in 47 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 18614|app: 0|req: 3/7] 180.117.243.174 () {44 vars in 902 bytes} [Tue Oct 31 18:24:16 2017] GET /question/ => generated 221 bytes in 1 msecs (HTTP/1.1 302) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 18623|app: 0|req: 4/8] 180.117.243.174 () {44 vars in 896 bytes} [Tue Oct 31 18:24:16 2017] GET /login/ => generated 4302 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:624: SAWarning: Can't resolve label reference '-create_time'; converting to text() (this warning may be suppressed after 10 occurrences)
+  util.ellipses_string(element.element))
+[pid: 18618|app: 0|req: 1/9] 180.117.243.174 () {44 vars in 880 bytes} [Tue Oct 31 18:24:17 2017] GET / => generated 3651 bytes in 48 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 18614|app: 0|req: 4/10] 180.117.243.174 () {44 vars in 892 bytes} [Tue Oct 31 18:24:20 2017] GET /question/ => generated 221 bytes in 1 msecs (HTTP/1.1 302) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 18619|app: 0|req: 1/11] 180.117.243.174 () {44 vars in 886 bytes} [Tue Oct 31 18:24:20 2017] GET /login/ => generated 4302 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 18614|app: 0|req: 5/12] 180.117.243.174 () {44 vars in 892 bytes} [Tue Oct 31 18:24:22 2017] GET /login/ => generated 4302 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 18623|app: 0|req: 5/13] 180.117.243.174 () {44 vars in 898 bytes} [Tue Oct 31 18:24:24 2017] GET /register/ => generated 3359 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 18622|app: 0|req: 2/14] 180.117.243.174 () {44 vars in 895 bytes} [Tue Oct 31 18:24:28 2017] GET /login/ => generated 4302 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 18614|app: 0|req: 6/15] 180.117.243.174 () {44 vars in 898 bytes} [Tue Oct 31 18:24:36 2017] GET /question/ => generated 221 bytes in 1 msecs (HTTP/1.1 302) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 18621|app: 0|req: 1/16] 180.117.243.174 () {44 vars in 892 bytes} [Tue Oct 31 18:24:36 2017] GET /login/ => generated 4302 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 18614|app: 0|req: 7/17] 180.117.243.174 () {44 vars in 898 bytes} [Tue Oct 31 18:24:40 2017] GET /register/ => generated 3359 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 18623|app: 0|req: 6/18] 180.117.243.174 () {44 vars in 901 bytes} [Tue Oct 31 18:24:41 2017] GET /register/ => generated 3359 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 18619|app: 0|req: 2/19] 180.117.243.174 () {44 vars in 895 bytes} [Tue Oct 31 18:24:42 2017] GET /login/ => generated 4302 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 18614|app: 0|req: 8/20] 180.117.243.174 () {46 vars in 926 bytes} [Tue Oct 31 18:35:09 2017] GET /login/ => generated 4302 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 18623|app: 0|req: 7/21] 180.117.243.174 () {44 vars in 898 bytes} [Tue Oct 31 18:35:11 2017] GET /question/ => generated 221 bytes in 6 msecs (HTTP/1.1 302) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 18614|app: 0|req: 9/22] 180.117.243.174 () {44 vars in 892 bytes} [Tue Oct 31 18:35:12 2017] GET /login/ => generated 4302 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 18622|app: 0|req: 3/23] 180.117.243.174 () {50 vars in 994 bytes} [Tue Oct 31 18:35:17 2017] POST /login/ => generated 28 bytes in 362 msecs (HTTP/1.1 200) 3 headers in 227 bytes (2 switches on core 0)
+/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:624: SAWarning: Can't resolve label reference '-create_time'; converting to text() (this warning may be suppressed after 10 occurrences)
+  util.ellipses_string(element.element))
+[pid: 18614|app: 0|req: 10/24] 180.117.243.174 () {44 vars in 880 bytes} [Tue Oct 31 18:35:17 2017] GET / => generated 3639 bytes in 37 msecs (HTTP/1.1 200) 3 headers in 237 bytes (1 switches on core 0)
+[pid: 18623|app: 0|req: 8/25] 180.117.243.174 () {42 vars in 815 bytes} [Tue Oct 31 18:35:19 2017] GET /favicon.ico => generated 233 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 228 bytes (1 switches on core 0)
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+[uWSGI] getting INI configuration from wudizu_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Oct 31 18:50:03 2017] ***
+compiled with version: 4.8.4 on 31 October 2017 13:59:27
+os: Linux-4.4.0-93-generic #116~14.04.1-Ubuntu SMP Mon Aug 14 16:07:05 UTC 2017
+nodename: iZm5e0xw5mwwcpsnzwzzspZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/wudizu
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/wudizu
+your processes number limit is 3869
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /srv/wudizu/wudizu.sock fd 3
+Python version: 2.7.6 (default, Oct 26 2016, 20:33:43)  [GCC 4.8.4]
+Set PythonHome to /root/.virtualenvs/flask-py2
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2412b10
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2412b10 pid: 1420 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1420)
+spawned uWSGI worker 1 (pid: 1423, cores: 1)
+spawned uWSGI worker 2 (pid: 1424, cores: 1)
+spawned uWSGI worker 3 (pid: 1425, cores: 1)
+spawned uWSGI worker 4 (pid: 1426, cores: 1)
+spawned uWSGI worker 5 (pid: 1427, cores: 1)
+spawned uWSGI worker 6 (pid: 1428, cores: 1)
+spawned uWSGI worker 7 (pid: 1429, cores: 1)
+spawned uWSGI worker 8 (pid: 1430, cores: 1)
+spawned uWSGI worker 9 (pid: 1431, cores: 1)
+spawned uWSGI worker 10 (pid: 1432, cores: 1)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 24, in index
+    'questions': Question.query.order_by('-create_time').all()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2703, in all
+    return list(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1426|app: 0|req: 1/1] 180.117.243.174 () {44 vars in 868 bytes} [Tue Oct 31 18:50:09 2017] GET / => generated 0 bytes in 85 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 24, in index
+    'questions': Question.query.order_by('-create_time').all()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2703, in all
+    return list(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1423|app: 0|req: 1/2] 180.117.243.174 () {44 vars in 868 bytes} [Tue Oct 31 18:50:11 2017] GET / => generated 0 bytes in 37 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 1432|app: 0|req: 1/3] 180.117.243.174 () {42 vars in 815 bytes} [Tue Oct 31 18:50:12 2017] GET /favicon.ico => generated 233 bytes in 60 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 24, in index
+    'questions': Question.query.order_by('-create_time').all()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2703, in all
+    return list(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1423|app: 0|req: 2/4] 180.117.243.174 () {44 vars in 868 bytes} [Tue Oct 31 18:50:21 2017] GET / => generated 0 bytes in 12 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 24, in index
+    'questions': Question.query.order_by('-create_time').all()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2703, in all
+    return list(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1432|app: 0|req: 2/5] 180.117.243.174 () {44 vars in 868 bytes} [Tue Oct 31 18:50:22 2017] GET / => generated 0 bytes in 34 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 24, in index
+    'questions': Question.query.order_by('-create_time').all()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2703, in all
+    return list(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1423|app: 0|req: 3/6] 180.117.243.174 () {44 vars in 868 bytes} [Tue Oct 31 18:50:22 2017] GET / => generated 0 bytes in 13 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 24, in index
+    'questions': Question.query.order_by('-create_time').all()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2703, in all
+    return list(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1432|app: 0|req: 3/7] 180.117.243.174 () {44 vars in 868 bytes} [Tue Oct 31 18:50:23 2017] GET / => generated 0 bytes in 13 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 1423|app: 0|req: 4/8] 180.117.243.174 () {42 vars in 815 bytes} [Tue Oct 31 18:50:24 2017] GET /favicon.ico => generated 233 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 24, in index
+    'questions': Question.query.order_by('-create_time').all()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2703, in all
+    return list(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1432|app: 0|req: 4/9] 180.117.243.174 () {44 vars in 868 bytes} [Tue Oct 31 18:50:30 2017] GET / => generated 0 bytes in 12 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 24, in index
+    'questions': Question.query.order_by('-create_time').all()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2703, in all
+    return list(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1423|app: 0|req: 5/10] 180.117.243.174 () {44 vars in 868 bytes} [Tue Oct 31 18:50:30 2017] GET / => generated 0 bytes in 14 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 1432|app: 0|req: 5/11] 180.117.243.174 () {44 vars in 892 bytes} [Tue Oct 31 18:50:32 2017] GET /login/ => generated 4302 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 1423|app: 0|req: 6/12] 180.117.243.174 () {44 vars in 898 bytes} [Tue Oct 31 18:50:37 2017] GET /question/ => generated 221 bytes in 6 msecs (HTTP/1.1 302) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 1432|app: 0|req: 6/13] 180.117.243.174 () {44 vars in 892 bytes} [Tue Oct 31 18:50:37 2017] GET /login/ => generated 4302 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 24, in index
+    'questions': Question.query.order_by('-create_time').all()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2703, in all
+    return list(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1431|app: 0|req: 1/14] 180.117.243.174 () {44 vars in 880 bytes} [Tue Oct 31 18:50:40 2017] GET / => generated 0 bytes in 36 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 1423|app: 0|req: 7/15] 180.117.243.174 () {44 vars in 898 bytes} [Tue Oct 31 18:50:45 2017] GET /question/ => generated 221 bytes in 1 msecs (HTTP/1.1 302) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 1427|app: 0|req: 1/16] 180.117.243.174 () {44 vars in 892 bytes} [Tue Oct 31 18:50:45 2017] GET /login/ => generated 4302 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 1423|app: 0|req: 8/17] 180.117.243.174 () {44 vars in 898 bytes} [Tue Oct 31 18:50:47 2017] GET /question/ => generated 221 bytes in 1 msecs (HTTP/1.1 302) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 1432|app: 0|req: 7/18] 180.117.243.174 () {44 vars in 892 bytes} [Tue Oct 31 18:50:47 2017] GET /login/ => generated 4302 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 60, in login
+    user = User.query.filter(User.telephone == telephone).first()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2755, in first
+    ret = list(self[0:1])
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2547, in __getitem__
+    return list(res)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1431|app: 0|req: 2/19] 180.117.243.174 () {50 vars in 994 bytes} [Tue Oct 31 18:50:54 2017] POST /login/ => generated 0 bytes in 16 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 60, in login
+    user = User.query.filter(User.telephone == telephone).first()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2755, in first
+    ret = list(self[0:1])
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2547, in __getitem__
+    return list(res)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1423|app: 0|req: 9/20] 180.117.243.174 () {50 vars in 994 bytes} [Tue Oct 31 18:50:56 2017] POST /login/ => generated 0 bytes in 13 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 60, in login
+    user = User.query.filter(User.telephone == telephone).first()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2755, in first
+    ret = list(self[0:1])
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2547, in __getitem__
+    return list(res)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1432|app: 0|req: 8/21] 180.117.243.174 () {50 vars in 994 bytes} [Tue Oct 31 18:50:57 2017] POST /login/ => generated 0 bytes in 17 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 60, in login
+    user = User.query.filter(User.telephone == telephone).first()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2755, in first
+    ret = list(self[0:1])
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2547, in __getitem__
+    return list(res)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1423|app: 0|req: 10/22] 180.117.243.174 () {50 vars in 994 bytes} [Tue Oct 31 18:50:57 2017] POST /login/ => generated 0 bytes in 14 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 60, in login
+    user = User.query.filter(User.telephone == telephone).first()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2755, in first
+    ret = list(self[0:1])
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2547, in __getitem__
+    return list(res)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1432|app: 0|req: 9/23] 180.117.243.174 () {50 vars in 994 bytes} [Tue Oct 31 18:50:57 2017] POST /login/ => generated 0 bytes in 12 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 1423|app: 0|req: 11/24] 180.117.243.174 () {44 vars in 901 bytes} [Tue Oct 31 18:51:03 2017] GET /question/ => generated 221 bytes in 1 msecs (HTTP/1.1 302) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 1431|app: 0|req: 3/25] 180.117.243.174 () {44 vars in 895 bytes} [Tue Oct 31 18:51:03 2017] GET /login/ => generated 4302 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 1423|app: 0|req: 12/26] 180.117.243.174 () {44 vars in 898 bytes} [Tue Oct 31 18:51:06 2017] GET /register/ => generated 3359 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 1432|app: 0|req: 10/27] 180.117.243.174 () {44 vars in 895 bytes} [Tue Oct 31 18:51:09 2017] GET /login/ => generated 4302 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 60, in login
+    user = User.query.filter(User.telephone == telephone).first()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2755, in first
+    ret = list(self[0:1])
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2547, in __getitem__
+    return list(res)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1431|app: 0|req: 4/28] 180.117.243.174 () {50 vars in 994 bytes} [Tue Oct 31 18:51:17 2017] POST /login/ => generated 0 bytes in 13 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 60, in login
+    user = User.query.filter(User.telephone == telephone).first()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2755, in first
+    ret = list(self[0:1])
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2547, in __getitem__
+    return list(res)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1423|app: 0|req: 13/29] 180.117.243.174 () {50 vars in 994 bytes} [Tue Oct 31 18:51:18 2017] POST /login/ => generated 0 bytes in 14 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 60, in login
+    user = User.query.filter(User.telephone == telephone).first()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2755, in first
+    ret = list(self[0:1])
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2547, in __getitem__
+    return list(res)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1432|app: 0|req: 11/30] 180.117.243.174 () {50 vars in 994 bytes} [Tue Oct 31 18:51:18 2017] POST /login/ => generated 0 bytes in 12 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 60, in login
+    user = User.query.filter(User.telephone == telephone).first()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2755, in first
+    ret = list(self[0:1])
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2547, in __getitem__
+    return list(res)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1423|app: 0|req: 14/31] 180.117.243.174 () {50 vars in 994 bytes} [Tue Oct 31 18:51:18 2017] POST /login/ => generated 0 bytes in 15 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 60, in login
+    user = User.query.filter(User.telephone == telephone).first()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2755, in first
+    ret = list(self[0:1])
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2547, in __getitem__
+    return list(res)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1432|app: 0|req: 12/32] 180.117.243.174 () {50 vars in 994 bytes} [Tue Oct 31 18:51:18 2017] POST /login/ => generated 0 bytes in 14 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 1423|app: 0|req: 15/33] 180.117.243.174 () {46 vars in 926 bytes} [Tue Oct 31 18:51:20 2017] GET /login/ => generated 4302 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 115, in search
+    return render_template('index.html',questions=questions)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/srv/wudizu/templates/index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/srv/wudizu/templates/base.html", line 59, in top-level template code
+    <div class="main">{% block main %}
+  File "/srv/wudizu/templates/index.html", line 11, in block "main"
+    {% for question in questions %}
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2876, in _execute_and_instances
+    close_with_result=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2885, in _get_bind_args
+    **kw
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2867, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 998, in connection
+    execution_options=execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1003, in _connection_for_bind
+    engine, execution_options)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2112, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+[pid: 1431|app: 0|req: 5/34] 180.117.243.174 () {44 vars in 905 bytes} [Tue Oct 31 18:51:23 2017] GET /search/?q=121 => generated 0 bytes in 24 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:624: SAWarning: Can't resolve label reference '-create_time'; converting to text() (this warning may be suppressed after 10 occurrences)
+  util.ellipses_string(element.element))
+[pid: 1423|app: 0|req: 16/35] 180.117.243.174 () {46 vars in 936 bytes} [Tue Oct 31 19:03:32 2017] GET /search/?q=121 => generated 2500 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:624: SAWarning: Can't resolve label reference '-create_time'; converting to text() (this warning may be suppressed after 10 occurrences)
+  util.ellipses_string(element.element))
+[pid: 1432|app: 0|req: 13/36] 180.117.243.174 () {44 vars in 912 bytes} [Tue Oct 31 19:03:36 2017] GET /search/?q=121 => generated 2500 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 1423|app: 0|req: 17/37] 180.117.243.174 () {44 vars in 887 bytes} [Tue Oct 31 19:03:38 2017] GET / => generated 3651 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 24, in index
+    'questions': Question.query.order_by('-create_time').all()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2703, in all
+    return list(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2878, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 945, in execute
+    return meth(self, multiparams, params)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 263, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1053, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1189, in _execute_context
+    context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1402, in _handle_dbapi_exception
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1182, in _execute_context
+    context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 470, in do_execute
+    cursor.execute(statement, parameters)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/cursors.py", line 166, in execute
+    result = self._query(query)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 1057, in _read_query_result
+    result.read()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 987, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 1033, in _read_bytes
+    CR.CR_SERVER_LOST, "Lost connection to MySQL server during query")
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2013, 'Lost connection to MySQL server during query') [SQL: u'SELECT question.id AS question_id, question.title AS question_title, question.content AS question_content, question.create_time AS question_create_time, question.author_id AS question_author_id \nFROM question ORDER BY -create_time']
+[pid: 1423|app: 0|req: 18/38] 180.117.243.174 () {46 vars in 918 bytes} [Tue Oct 31 19:09:09 2017] GET / => generated 0 bytes in 10 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./firstweb.py", line 24, in index
+    'questions': Question.query.order_by('-create_time').all()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2703, in all
+    return list(self)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2878, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 945, in execute
+    return meth(self, multiparams, params)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 263, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1053, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1189, in _execute_context
+    context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1402, in _handle_dbapi_exception
+    exc_info
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1182, in _execute_context
+    context)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 470, in do_execute
+    cursor.execute(statement, parameters)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/cursors.py", line 166, in execute
+    result = self._query(query)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 1057, in _read_query_result
+    result.read()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 987, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/connections.py", line 1033, in _read_bytes
+    CR.CR_SERVER_LOST, "Lost connection to MySQL server during query")
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2013, 'Lost connection to MySQL server during query') [SQL: u'SELECT question.id AS question_id, question.title AS question_title, question.content AS question_content, question.create_time AS question_create_time, question.author_id AS question_author_id \nFROM question ORDER BY -create_time']
+[pid: 1432|app: 0|req: 14/39] 180.117.243.174 () {46 vars in 918 bytes} [Tue Oct 31 19:09:11 2017] GET / => generated 0 bytes in 8 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 1423|app: 0|req: 19/40] 180.117.243.174 () {44 vars in 868 bytes} [Tue Oct 31 19:09:12 2017] GET / => generated 3651 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:624: SAWarning: Can't resolve label reference '-create_time'; converting to text() (this warning may be suppressed after 10 occurrences)
+  util.ellipses_string(element.element))
+[pid: 1431|app: 0|req: 6/41] 180.117.243.174 () {44 vars in 897 bytes} [Tue Oct 31 19:09:16 2017] GET /search/?q=11 => generated 2500 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 1423|app: 0|req: 20/42] 180.117.243.174 () {44 vars in 898 bytes} [Tue Oct 31 19:09:18 2017] GET /login/ => generated 4302 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 1432|app: 0|req: 15/43] 180.117.243.174 () {50 vars in 994 bytes} [Tue Oct 31 19:09:23 2017] POST /login/ => generated 76 bytes in 381 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 1423|app: 0|req: 21/44] 180.117.243.174 () {50 vars in 994 bytes} [Tue Oct 31 19:09:31 2017] POST /login/ => generated 28 bytes in 373 msecs (HTTP/1.1 200) 3 headers in 227 bytes (2 switches on core 0)
+[pid: 1432|app: 0|req: 16/45] 180.117.243.174 () {44 vars in 880 bytes} [Tue Oct 31 19:09:31 2017] GET / => generated 3639 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 237 bytes (1 switches on core 0)
+[pid: 1431|app: 0|req: 7/46] 180.117.243.174 () {42 vars in 815 bytes} [Tue Oct 31 19:09:33 2017] GET /favicon.ico => generated 233 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 228 bytes (1 switches on core 0)
+[pid: 1423|app: 0|req: 22/47] 180.117.243.174 () {44 vars in 892 bytes} [Tue Oct 31 19:09:37 2017] GET /question/ => generated 3051 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 237 bytes (1 switches on core 0)
+/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/cursors.py:166: Warning: (1366, u"Incorrect string value: '\\xE4\\xBD\\xA0\\xE8\\xAF\\xB4' for column 'title' at row 1")
+  result = self._query(query)
+/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/cursors.py:166: Warning: (1366, u"Incorrect string value: '\\xE9\\x9A\\x8F\\xE6\\x97\\xB6...' for column 'content' at row 1")
+  result = self._query(query)
+[pid: 1432|app: 0|req: 17/48] 180.117.243.174 () {52 vars in 1082 bytes} [Tue Oct 31 19:09:44 2017] POST /question/ => generated 209 bytes in 14 msecs (HTTP/1.1 302) 4 headers in 272 bytes (1 switches on core 0)
+[pid: 1423|app: 0|req: 23/49] 180.117.243.174 () {46 vars in 914 bytes} [Tue Oct 31 19:09:45 2017] GET / => generated 4213 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 237 bytes (1 switches on core 0)
+...brutally killing workers...
+[uWSGI] getting INI configuration from wudizu_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Oct 31 19:16:29 2017] ***
+compiled with version: 4.8.4 on 31 October 2017 13:59:27
+os: Linux-4.4.0-93-generic #116~14.04.1-Ubuntu SMP Mon Aug 14 16:07:05 UTC 2017
+nodename: iZm5e0xw5mwwcpsnzwzzspZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/wudizu
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/wudizu
+your processes number limit is 3869
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /srv/wudizu/wudizu.sock fd 3
+Python version: 2.7.6 (default, Oct 26 2016, 20:33:43)  [GCC 4.8.4]
+Set PythonHome to /root/.virtualenvs/flask-py2
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2302b40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2302b40 pid: 1373 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1373)
+spawned uWSGI worker 1 (pid: 1376, cores: 1)
+spawned uWSGI worker 2 (pid: 1377, cores: 1)
+spawned uWSGI worker 3 (pid: 1378, cores: 1)
+spawned uWSGI worker 4 (pid: 1379, cores: 1)
+spawned uWSGI worker 5 (pid: 1380, cores: 1)
+spawned uWSGI worker 6 (pid: 1381, cores: 1)
+spawned uWSGI worker 7 (pid: 1382, cores: 1)
+spawned uWSGI worker 8 (pid: 1383, cores: 1)
+spawned uWSGI worker 9 (pid: 1384, cores: 1)
+spawned uWSGI worker 10 (pid: 1385, cores: 1)
+/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:624: SAWarning: Can't resolve label reference '-create_time'; converting to text() (this warning may be suppressed after 10 occurrences)
+  util.ellipses_string(element.element))
+[pid: 1379|app: 0|req: 1/1] 180.117.243.174 () {46 vars in 914 bytes} [Tue Oct 31 19:16:38 2017] GET / => generated 4225 bytes in 54 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 1376|app: 0|req: 1/2] 180.117.243.174 () {44 vars in 890 bytes} [Tue Oct 31 19:16:40 2017] GET /detail/3 => generated 3204 bytes in 50 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 1385|app: 0|req: 1/3] 180.117.243.174 () {52 vars in 1085 bytes} [Tue Oct 31 19:16:44 2017] POST /add_answer/ => generated 221 bytes in 8 msecs (HTTP/1.1 302) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 1376|app: 0|req: 2/4] 180.117.243.174 () {46 vars in 925 bytes} [Tue Oct 31 19:16:44 2017] GET /login/ => generated 4302 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 1384|app: 0|req: 1/5] 180.117.243.174 () {50 vars in 994 bytes} [Tue Oct 31 19:16:49 2017] POST /login/ => generated 28 bytes in 406 msecs (HTTP/1.1 200) 3 headers in 227 bytes (2 switches on core 0)
+/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:624: SAWarning: Can't resolve label reference '-create_time'; converting to text() (this warning may be suppressed after 10 occurrences)
+  util.ellipses_string(element.element))
+[pid: 1376|app: 0|req: 3/6] 180.117.243.174 () {44 vars in 880 bytes} [Tue Oct 31 19:16:49 2017] GET / => generated 4213 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 237 bytes (1 switches on core 0)
+[pid: 1385|app: 0|req: 2/7] 180.117.243.174 () {42 vars in 815 bytes} [Tue Oct 31 19:16:51 2017] GET /favicon.ico => generated 233 bytes in 37 msecs (HTTP/1.1 404) 3 headers in 228 bytes (1 switches on core 0)
+[pid: 1376|app: 0|req: 4/8] 180.117.243.174 () {44 vars in 892 bytes} [Tue Oct 31 19:16:56 2017] GET /question/ => generated 3051 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 237 bytes (1 switches on core 0)
+/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/cursors.py:166: Warning: (1366, u"Incorrect string value: '\\xE4\\xBD\\xA0\\xE8\\xAF\\xB4...' for column 'title' at row 1")
+  result = self._query(query)
+/root/.virtualenvs/flask-py2/local/lib/python2.7/site-packages/pymysql/cursors.py:166: Warning: (1366, u"Incorrect string value: '\\xE4\\xB8\\x8A\\xE6\\x92\\x92...' for column 'content' at row 1")
+  result = self._query(query)
+[pid: 1385|app: 0|req: 3/9] 180.117.243.174 () {52 vars in 1082 bytes} [Tue Oct 31 19:17:03 2017] POST /question/ => generated 209 bytes in 11 msecs (HTTP/1.1 302) 4 headers in 272 bytes (1 switches on core 0)
+[pid: 1376|app: 0|req: 5/10] 180.117.243.174 () {46 vars in 914 bytes} [Tue Oct 31 19:17:03 2017] GET / => generated 4784 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 237 bytes (1 switches on core 0)
